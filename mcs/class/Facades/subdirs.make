@@ -3,7 +3,7 @@
 # Caution while renaming SUBDIRS variables as those are used outside mono repository.
 # ie: macccore/builds/Makefile
 
-monotouch_PARALLEL_SUBDIRS = System.Collections.Concurrent System.Collections System.ComponentModel.Annotations System.ComponentModel.EventBasedAsync System.ComponentModel \
+common_SUBDIRS = System.Collections.Concurrent System.Collections System.ComponentModel.Annotations System.ComponentModel.EventBasedAsync System.ComponentModel \
 System.Diagnostics.Contracts System.Diagnostics.Debug System.Diagnostics.Tracing System.Diagnostics.Tools System.Dynamic.Runtime System.Globalization System.IO System.Linq.Expressions \
 System.Linq.Parallel System.Linq.Queryable System.Linq System.Net.NetworkInformation System.Net.Primitives System.Net.Requests System.ObjectModel \
 System.Reflection.Extensions System.Reflection.Primitives System.Reflection System.Resources.ResourceManager System.Runtime.Extensions \
@@ -30,18 +30,22 @@ System.Security.Cryptography.Algorithms System.Security.Cryptography.Primitives
 
 reflection_PARALLEL_SUBDIRS = System.Reflection.Emit.ILGeneration System.Reflection.Emit.Lightweight System.Reflection.Emit
 
+monotouch_PARALLEL_SUBDIRS = $(common_SUBDIRS) $(mobile_only_SUBDIRS)
+
 mobile_static_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 
-net_4_x_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS) $(reflection_PARALLEL_SUBDIRS) System.Diagnostics.PerformanceCounter \
-System.IO.FileSystem.Watcher System.IO.Pipes System.Security.Cryptography.ProtectedData System.ServiceProcess.ServiceController \
-System.Net.Http.WebRequestHandler System.Drawing.Primitives System.IO.Packaging System.Net.Ping
+net_4_x_PARALLEL_SUBDIRS = $(common_SUBDIRS) $(reflection_PARALLEL_SUBDIRS) System.Diagnostics.PerformanceCounter \
+System.IO.FileSystem.Watcher System.IO.Pipes System.Security.Cryptography.ProtectedData System.ServiceProcess.ServiceController System.Net.Http.WebRequestHandler
 
 monodroid_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS) $(reflection_PARALLEL_SUBDIRS)
 
-xammac_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS) $(reflection_PARALLEL_SUBDIRS)
+xammac_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 xammac_net_4_5_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS) $(reflection_PARALLEL_SUBDIRS)
 
 monotouch_watch_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 monotouch_tv_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
+
+mobile_only_SUBDIRS = System.Net.Ping System.Runtime.Serialization.Formatters System.Security.Cryptography.Csp 
+#System.Security.Cryptography.Pkcs
 
 PROFILE_PARALLEL_SUBDIRS = $(net_4_x_PARALLEL_SUBDIRS)
