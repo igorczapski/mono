@@ -54,7 +54,8 @@ mobile_common_dirs := \
 	Mono.Security.Providers.DotNet	\
 	Mono.Security.Providers.NewSystemSource \
 	Mono.Security.Providers.NewTls	\
-	System.Runtime.InteropServices.RuntimeInformation
+	System.Runtime.InteropServices.RuntimeInformation	\
+	System.Reflection.DispatchProxy
 
 mobile_static_dirs := \
 	$(mobile_common_dirs)	\
