@@ -36,6 +36,7 @@ mobile_common_dirs := \
 	Mono.Data.Tds	\
 	System.Transactions	\
 	System.Numerics	\
+	System.Numerics.Vectors		\
 	System.Data	\
 	Mono.Cairo	\
 	Mono.Data.Sqlite	\
