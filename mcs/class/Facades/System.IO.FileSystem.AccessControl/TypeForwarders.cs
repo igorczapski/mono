@@ -27,4 +27,3 @@
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.AccessControl.FileSystemAuditRule))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.AccessControl.FileSystemRights))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.AccessControl.FileSystemSecurity))]
-//[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.IO.FileSystemAclExtensions))]
