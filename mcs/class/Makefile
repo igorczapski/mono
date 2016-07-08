@@ -225,7 +225,8 @@ net_4_x_dirs := \
 	System.Web.Http.WebHost \
 	Mono.Security.Providers.NewSystemSource \
 	Mono.Security.Providers.NewTls \
-	System.Runtime.InteropServices.RuntimeInformation
+	System.Runtime.InteropServices.RuntimeInformation	\
+	System.Reflection.Context
 
 # These are the subdirs which depends on libs in net_4_x_dirs
 # or have proper dependencies between each other
