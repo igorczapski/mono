@@ -233,6 +233,7 @@ System.ServiceModel/MessageHeader_1.cs
 System.ServiceModel/MessageParameterAttribute.cs
 System.ServiceModel/MessagePropertyAttribute.cs
 System.ServiceModel/NetHttpBinding.cs
+System.ServiceModel/NetHttpsBinding.cs
 System.ServiceModel/NetHttpMessageEncoding.cs
 System.ServiceModel/OperationContext.cs
 System.ServiceModel/OperationContextScope.cs
