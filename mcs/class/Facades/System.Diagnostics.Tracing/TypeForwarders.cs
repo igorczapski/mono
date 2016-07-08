@@ -20,7 +20,6 @@
 // THE SOFTWARE.
 // 
 
-//[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Diagnostics.Tracing.EventCounter))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Diagnostics.Tracing.EventActivityOptions))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Diagnostics.Tracing.EventAttribute))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Diagnostics.Tracing.EventChannel))]

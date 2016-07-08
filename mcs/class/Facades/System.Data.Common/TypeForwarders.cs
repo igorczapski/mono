@@ -20,9 +20,6 @@
 // THE SOFTWARE.
 // 
 
-//[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Data.Common.DbColumn))]
-//[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Data.Common.DbDataReaderExtensions))]
-//[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Data.Common.IDbColumnSchemaGenerator))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.DBNull))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Data.CommandBehavior))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Data.CommandType))]

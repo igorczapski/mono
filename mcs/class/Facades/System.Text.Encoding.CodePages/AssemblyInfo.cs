@@ -1,5 +1,5 @@
 // 
-// Copyright (c) 2015 Xamarin Inc. (http://www.xamarin.com)
+// Copyright (c) 2016 Xamarin Inc. (http://www.xamarin.com)
 // 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -20,4 +20,22 @@
 // THE SOFTWARE.
 // 
 
-[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.SecureString))]
+using System;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+
+[assembly: AssemblyTitle ("System.Text.Encoding.CodePages.dll")]
+[assembly: AssemblyDescription ("System.Text.Encoding.CodePages.dll")]
+[assembly: AssemblyDefaultAlias ("System.Text.Encoding.CodePages.dll")]
+[assembly: AssemblyCompany ("Xamarin, Inc.")]
+[assembly: AssemblyProduct ("Mono Common Language Infrastructure")]
+[assembly: AssemblyCopyright ("Copyright (c) 2016 Xamarin Inc. (http://www.xamarin.com)")]
+[assembly: AssemblyVersion ("4.0.0.0")]
+[assembly: AssemblyInformationalVersion ("4.0.0.0")]
+[assembly: AssemblyFileVersion ("4.0.0.0")]
+[assembly: AssemblyDelaySign (true)]
+[assembly: AssemblyKeyFile ("../../msfinal.pub")]
+
+[assembly: ReferenceAssembly]
+
+

@@ -1,5 +1,5 @@
 // 
-// Copyright (c) 2015 Xamarin Inc. (http://www.xamarin.com)
+// Copyright (c) 2016 Xamarin Inc. (http://www.xamarin.com)
 // 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -20,4 +20,18 @@
 // THE SOFTWARE.
 // 
 
-[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.SecureString))]
+namespace System.Text
+{
+	public sealed partial class CodePagesEncodingProvider
+	{
+		private CodePagesEncodingProvider ()
+		{
+		}
+		
+		public static System.Text.EncodingProvider Instance { 
+			get {
+				throw new NotImplementedException ();
+			}
+		}
+	}
+}
