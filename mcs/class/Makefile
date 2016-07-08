@@ -138,6 +138,7 @@ xammac_4_5_dirs := \
 	Mono.Security.Providers.NewSystemSource \
 	Mono.Security.Providers.NewTls \
 	System.Runtime.InteropServices.RuntimeInformation \
+	System.Reflection.Context	\
 	$(pcl_facade_dirs)
 
 net_4_x_dirs := \
