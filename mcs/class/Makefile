@@ -23,6 +23,7 @@ mobile_common_dirs := \
 	Mono.Security \
 	System	\
 	System.Core	\
+	System.Security	\
 	System.XML	\
 	I18N		\
 	System.ServiceModel.Internals	\
@@ -98,6 +99,7 @@ xammac_4_5_dirs := \
 	System	\
 	Mono.Posix			\
 	System.Core	\
+	System.Security			\
 	System.XML	\
 	I18N		\
 	System.ServiceModel.Internals	\

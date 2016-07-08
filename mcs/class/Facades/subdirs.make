@@ -45,7 +45,6 @@ xammac_net_4_5_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS) $(reflection_PAR
 monotouch_watch_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 monotouch_tv_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 
-mobile_only_SUBDIRS = System.Net.Ping System.Runtime.Serialization.Formatters System.Security.Cryptography.Csp 
-#System.Security.Cryptography.Pkcs
+mobile_only_SUBDIRS = System.Net.Ping System.Runtime.Serialization.Formatters System.Security.Cryptography.Csp System.Security.Cryptography.Pkcs
 
 PROFILE_PARALLEL_SUBDIRS = $(net_4_x_PARALLEL_SUBDIRS)
