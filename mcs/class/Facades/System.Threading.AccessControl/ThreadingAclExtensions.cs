@@ -1,6 +1,32 @@
-// Licensed to the .NET Foundation under one or more agreements.
-// The .NET Foundation licenses this file to you under the MIT license.
-// See the LICENSE file in the project root for more information.
+//
+// ThreadingAclExtensions.cs
+//
+// Author:
+//   Alexander Köplinger (alexander.koeplinger@xamarin.com)
+//
+// (C) 2016 Xamarin, Inc.
+//
+
+//
+// Permission is hereby granted, free of charge, to any person obtaining
+// a copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to
+// permit persons to whom the Software is furnished to do so, subject to
+// the following conditions:
+// 
+// The above copyright notice and this permission notice shall be
+// included in all copies or substantial portions of the Software.
+// 
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+// NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+// LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+// OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+// WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+//
 
 using System;
 using System.Security.AccessControl;
@@ -10,34 +36,40 @@ namespace System.Threading
 {
     public static class ThreadingAclExtensions
     {
-        public static EventWaitHandleSecurity GetAccessControl(EventWaitHandle handle)
+        [MonoTODO]
+        public static EventWaitHandleSecurity GetAccessControl (EventWaitHandle handle)
         {
-            return handle.GetAccessControl();
+            throw new NotImplementedException ();
         }
 
-        public static void SetAccessControl(EventWaitHandle handle, EventWaitHandleSecurity eventSecurity)
+        [MonoTODO]
+        public static void SetAccessControl (EventWaitHandle handle, EventWaitHandleSecurity eventSecurity)
         {
-            handle.SetAccessControl(eventSecurity);
+            throw new NotImplementedException ();
         }
 
-        public static MutexSecurity GetAccessControl(Mutex mutex)
+        [MonoTODO]
+        public static MutexSecurity GetAccessControl (Mutex mutex)
         {
-            return mutex.GetAccessControl();
+            throw new NotImplementedException ();
         }
 
-        public static void SetAccessControl(Mutex mutex, MutexSecurity mutexSecurity)
+        [MonoTODO]
+        public static void SetAccessControl (Mutex mutex, MutexSecurity mutexSecurity)
         {
-            mutex.SetAccessControl(mutexSecurity);
+            throw new NotImplementedException ();
         }
 
-        public static SemaphoreSecurity GetAccessControl(Semaphore semaphore)
+        [MonoTODO]
+        public static SemaphoreSecurity GetAccessControl (Semaphore semaphore)
         {
-            return semaphore.GetAccessControl();
+            throw new NotImplementedException ();
         }
 
-        public static void SetAccessControl(Semaphore semaphore, SemaphoreSecurity semaphoreSecurity)
+        [MonoTODO]
+        public static void SetAccessControl (Semaphore semaphore, SemaphoreSecurity semaphoreSecurity)
         {
-            semaphore.SetAccessControl(semaphoreSecurity);
+            throw new NotImplementedException ();
         }
     }
 }
