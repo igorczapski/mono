@@ -58,7 +58,8 @@ mobile_common_dirs := \
 	Mono.Security.Providers.NewTls	\
 	System.Runtime.InteropServices.RuntimeInformation	\
 	System.Reflection.DispatchProxy	\
-	System.Xml.XPath.XmlDocument
+	System.Xml.XPath.XmlDocument \
+	System.Reflection.Context
 
 mobile_static_dirs := \
 	$(mobile_common_dirs)	\
@@ -228,8 +229,7 @@ net_4_x_dirs := \
 	System.Web.Http.WebHost \
 	Mono.Security.Providers.NewSystemSource \
 	Mono.Security.Providers.NewTls \
-	System.Runtime.InteropServices.RuntimeInformation	\
-	System.Reflection.Context
+	System.Runtime.InteropServices.RuntimeInformation
 
 # These are the subdirs which depends on libs in net_4_x_dirs
 # or have proper dependencies between each other
@@ -285,6 +285,7 @@ net_4_x_parallel_dirs := \
 	System.Workflow.Activities \
 	System.Workflow.ComponentModel \
 	System.Workflow.Runtime \
+	System.Reflection.Context \
 	$(pcl_facade_dirs)
 
 xbuild_2_0_dirs := \
