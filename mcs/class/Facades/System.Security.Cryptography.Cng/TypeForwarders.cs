@@ -24,7 +24,7 @@
 // missing [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle))]
 // missing [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle))]
 // missing [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle))]
-// .net 4.6.2 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.AesCng))]
+[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.AesCng))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.CngAlgorithm))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.CngAlgorithmGroup))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.CngExportPolicies))]
@@ -43,6 +43,4 @@
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.CngUIProtectionLevels))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.ECDsaCng))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.RSACng))]
-// .net 4.6.2 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.TripleDESCng))]
-
-
+[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.TripleDESCng))]
