@@ -5,6 +5,8 @@ Assembly/AssemblyInfo.cs
 System.Security.Cryptography/CryptographicAttribute.cs
 System.Security.Cryptography/CryptographicAttributeCollection.cs
 System.Security.Cryptography/CryptographicAttributeEnumerator.cs
+System.Security.Cryptography/DataProtectionScope.cs
+System.Security.Cryptography/ProtectedData.cs
 System.Security.Cryptography.Pkcs/AlgorithmIdentifier.cs
 System.Security.Cryptography.Pkcs/CmsRecipient.cs
 System.Security.Cryptography.Pkcs/CmsRecipientCollection.cs
