@@ -260,3 +260,14 @@ Dummy_2_1.cs
 System.ServiceModel/XmlSerializerFormatAttribute.cs
 System.ServiceModel.Description/XmlSerializerOperationBehavior.cs
 System.ServiceModel.Dispatcher/XmlMessagesFormatter.cs
+
+System.ServiceModel.Channels/ConnectionOrientedTransportBindingElement.cs
+System.ServiceModel.Channels/SslStreamSecurityBindingElement.cs
+System.ServiceModel.Channels/TcpConnectionPoolSettings.cs
+System.ServiceModel.Channels/TcpTransportBindingElement.cs
+System.ServiceModel.Channels/WindowsStreamSecurityBindingElement.cs
+
+System.ServiceModel/MessageSecurityOverTcp.cs
+System.ServiceModel/NetTcpBinding.cs
+System.ServiceModel/NetTcpSecurity.cs
+System.ServiceModel/TcpTransportSecurity.cs
