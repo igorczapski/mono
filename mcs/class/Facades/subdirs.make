@@ -26,7 +26,7 @@ System.Security.Cryptography.X509Certificates System.Security.Principal.Windows 
 System.Xml.XPath System.Xml.XmlDocument System.Xml.Xsl.Primitives Microsoft.Win32.Registry.AccessControl System.Diagnostics.StackTrace System.Globalization.Extensions \
 System.IO.FileSystem.AccessControl System.Private.CoreLib.InteropServices System.Private.CoreLib.Threading System.Reflection.TypeExtensions \
 System.Security.SecureString System.Threading.AccessControl System.Threading.Overlapped System.Xml.XPath.XDocument System.IO.Compression \
-System.Security.Cryptography.Algorithms System.Security.Cryptography.Primitives System.Text.Encoding.CodePages
+System.Security.Cryptography.Algorithms System.Security.Cryptography.Primitives System.Text.Encoding.CodePages System.IO.FileSystem.Watcher
 
 reflection_PARALLEL_SUBDIRS = System.Reflection.Emit.ILGeneration System.Reflection.Emit.Lightweight System.Reflection.Emit
 
@@ -35,7 +35,7 @@ monotouch_PARALLEL_SUBDIRS = $(common_SUBDIRS) $(mobile_only_SUBDIRS)
 mobile_static_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 
 net_4_x_PARALLEL_SUBDIRS = $(common_SUBDIRS) $(reflection_PARALLEL_SUBDIRS) System.Diagnostics.PerformanceCounter \
-System.IO.FileSystem.Watcher System.IO.Pipes System.Security.Cryptography.ProtectedData System.ServiceProcess.ServiceController System.Net.Http.WebRequestHandler
+System.IO.Pipes System.Security.Cryptography.ProtectedData System.ServiceProcess.ServiceController System.Net.Http.WebRequestHandler
 
 monodroid_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS) $(reflection_PARALLEL_SUBDIRS)
 
