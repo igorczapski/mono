@@ -47,6 +47,6 @@ monotouch_watch_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 monotouch_tv_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 
 mobile_only_SUBDIRS = System.Net.Ping System.Runtime.Serialization.Formatters System.Security.Cryptography.Csp System.Security.Cryptography.Pkcs \
-System.Security.Cryptography.Cng
+System.Security.Cryptography.Cng System.Security.Cryptography.OpenSsl
 
 PROFILE_PARALLEL_SUBDIRS = $(net_4_x_PARALLEL_SUBDIRS)

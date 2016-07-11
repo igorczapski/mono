@@ -1,12 +1,10 @@
 //
-// ChannelBindingKind.cs 
+// ECDsaOpenSsl.cs
 //
 // Authors:
-//      Atsushi Enomoto  <atsushi@ximian.com>
+//	Marek Safar  <marek.safar@gmail.com>
 //
-
-//
-// Copyright (C) 2010 Novell, Inc (http://novell.com)
+// Copyright (C) 2016 Xamarin Inc (http://www.xamarin.com)
 //
 // Permission is hereby granted, free of charge, to any person obtaining
 // a copy of this software and associated documentation files (the
@@ -15,10 +13,10 @@
 // distribute, sublicense, and/or sell copies of the Software, and to
 // permit persons to whom the Software is furnished to do so, subject to
 // the following conditions:
-// 
+//
 // The above copyright notice and this permission notice shall be
 // included in all copies or substantial portions of the Software.
-// 
+//
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 // EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 // MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -28,12 +26,20 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-namespace System.Security.Authentication.ExtendedProtection
+namespace System.Security.Cryptography
 {
-	public enum ChannelBindingKind
+	public sealed class ECDsaOpenSsl : ECDsa
 	{
-		Unknown = 0,
-		Unique = 25,
-		Endpoint = 26
+		public override byte[] SignHash (byte[] hash)
+		{
+			throw new NotImplementedException ();
+		}
+
+		public override bool VerifyHash (byte[] hash, byte[] signature)
+		{
+			throw new NotImplementedException ();
+		}
+
+		// TODO: Implement full contract API
 	}
 }
