@@ -2,3 +2,4 @@ TypeForwarders.cs
 AssemblyInfo.cs
 IDbColumnSchemaGenerator.cs
 DbColumn.cs
+DbDataReaderExtensions.Facade.cs
