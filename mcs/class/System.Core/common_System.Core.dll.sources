@@ -187,9 +187,17 @@ ReferenceSources/Strings.cs
 ../referencesource/System.Core/System/Runtime/CompilerServices/ExecutionScope.cs
 
 ../referencesource/System.Core/System/Security/Cryptography/Aes.cs
+../referencesource/System.Core/System/Security/Cryptography/CngKey.cs
 ../referencesource/System.Core/System/Security/Cryptography/CngKeyBlobFormat.cs
+../referencesource/System.Core/System/Security/Cryptography/CngKeyCreationParameters.cs
+../referencesource/System.Core/System/Security/Cryptography/CngProperty.cs
+../referencesource/System.Core/System/Security/Cryptography/CngProvider.cs
+../referencesource/System.Core/System/Security/Cryptography/CngUIPolicy.cs
 ../referencesource/System.Core/System/Security/Cryptography/ECDiffieHellmanPublicKey.cs
 ../referencesource/System.Core/System/Security/Cryptography/ECDsa.cs
+../referencesource/System.Core/System/Security/Cryptography/ECDsaCng.cs
+../referencesource/System.Core/System/Security/Cryptography/NCryptNative.cs
+../referencesource/System.Core/System/Security/Cryptography/RsaCng.cs
 
 ../referencesource/System.Core/System/threading/ReaderWriterLockSlim/ReaderWriterLockSlim.cs
 
