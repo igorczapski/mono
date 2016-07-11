@@ -187,6 +187,7 @@ System.ServiceModel/BasicHttpSecurity.cs
 System.ServiceModel/BasicHttpMessageSecurity.cs
 System.ServiceModel/BasicHttpsBinding.cs
 System.ServiceModel/BasicHttpsSecurity.cs
+System.ServiceModel/CallbackBehaviorAttribute.cs
 System.ServiceModel/ChannelFactory.cs
 System.ServiceModel/ChannelFactory_1.cs
 System.ServiceModel/ClientBase.cs
@@ -200,6 +201,8 @@ System.ServiceModel/Constants.cs
 System.ServiceModel/DataContractFormatAttribute.cs
 System.ServiceModel/DefaultCommunicationTimeouts.cs
 System.ServiceModel/Dummy.cs
+System.ServiceModel/DuplexClientBase.cs
+System.ServiceModel/DuplexChannelFactory.cs
 System.ServiceModel/EndpointAddress.cs
 System.ServiceModel/EndpointAddress10.cs
 System.ServiceModel/EndpointAddressBuilder.cs
@@ -218,6 +221,7 @@ System.ServiceModel/IClientChannel.cs
 System.ServiceModel/ICommunicationObject.cs
 System.ServiceModel/IContextChannel.cs
 System.ServiceModel/IDefaultCommunicationTimeouts.cs
+System.ServiceModel/IDuplexClientChannel.cs
 System.ServiceModel/IExtensibleObject.cs
 System.ServiceModel/IExtension.cs
 System.ServiceModel/IExtensionCollection.cs
