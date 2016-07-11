@@ -47,40 +47,49 @@ namespace System.Runtime.Loader
 		
 		public static System.Reflection.AssemblyName GetAssemblyName (string assemblyPath)
 		{
+			throw new NotImplementedException ();
 		}
 		
-		public static System.Runtime.Loader.AssemblyLoadContext GetLoadContext (System.Reflection.Assembly assembly) 
+		public static AssemblyLoadContext GetLoadContext (System.Reflection.Assembly assembly) 
 		{
+			throw new NotImplementedException ();
 		}
 		
 		protected abstract System.Reflection.Assembly Load (System.Reflection.AssemblyName assemblyName);
 		
 		public System.Reflection.Assembly LoadFromAssemblyName(System.Reflection.AssemblyName assemblyName) 
 		{
+			throw new NotImplementedException ();
 		}
 		
 		public System.Reflection.Assembly LoadFromAssemblyPath (string assemblyPath)
 		{
+			throw new NotImplementedException ();
 		}
 		
 		public System.Reflection.Assembly LoadFromNativeImagePath (string nativeImagePath, string assemblyPath)
 		{
+			throw new NotImplementedException ();
 		}
 		
 		public System.Reflection.Assembly LoadFromStream (System.IO.Stream assembly)
 		{
+			throw new NotImplementedException ();
 		}
 
 		public System.Reflection.Assembly LoadFromStream (System.IO.Stream assembly, System.IO.Stream assemblySymbols) 
 		{
+			throw new NotImplementedException ();
 		}
 		
 		protected IntPtr LoadUnmanagedDllFromPath (string unmanagedDllPath)
 		{
+			throw new NotImplementedException ();
 		}
 		
 		protected virtual IntPtr LoadUnmanagedDll (string unmanagedDllName)
 		{
+			throw new NotImplementedException ();
 		}
 
 		public void SetProfileOptimizationRoot (string directoryPath)
