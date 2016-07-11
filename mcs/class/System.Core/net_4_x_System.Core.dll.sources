@@ -22,8 +22,6 @@ System.IO.Pipes/PipeWin32.cs
 
 System.Security.Cryptography/AesCryptoServiceProvider.cs
 System.Security.Cryptography/AesTransform.cs
-System.Security.Cryptography/CngAlgorithm.cs
-System.Security.Cryptography/CngAlgorithmGroup.cs
 System.Security.Cryptography/MD5Cng.cs
 System.Security.Cryptography/SHA1Cng.cs
 System.Security.Cryptography/SHA256Cng.cs
