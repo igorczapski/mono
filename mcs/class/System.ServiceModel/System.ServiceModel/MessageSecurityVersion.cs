@@ -115,6 +115,7 @@ namespace System.ServiceModel
 					SecureConversationVersion = SecureConversationVersion.WSSecureConversationFeb2005;
 					TrustVersion = TrustVersion.WSTrustFeb2005;
 				}
+				this.SecurityVersion = wss11 ? SecurityVersion.WSSecurity11 : SecurityVersion.WSSecurity10;
 			}
 
 			public override BasicSecurityProfileVersion BasicSecurityProfileVersion {
@@ -123,10 +124,6 @@ namespace System.ServiceModel
 
 			public override SecurityTokenVersion SecurityTokenVersion {
 				get { return MessageSecurityTokenVersion.GetVersion (wss11, basic_profile); }
-			}
-
-			public override SecurityVersion SecurityVersion {
-				get { return wss11 ? SecurityVersion.WSSecurity11 : SecurityVersion.WSSecurity10; }
 			}
 
 			public override SecurityPolicyVersion SecurityPolicyVersion {
@@ -195,7 +192,7 @@ namespace System.ServiceModel
 		public abstract SecurityTokenVersion SecurityTokenVersion { get; }
 #endif
 
-		public abstract SecurityVersion SecurityVersion { get; }
+		public SecurityVersion SecurityVersion { get; internal set; }
 
 		public SecureConversationVersion SecureConversationVersion { get; internal set; }
 
