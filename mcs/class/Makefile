@@ -59,7 +59,8 @@ mobile_common_dirs := \
 	System.Runtime.InteropServices.RuntimeInformation	\
 	System.Reflection.DispatchProxy	\
 	System.Xml.XPath.XmlDocument \
-	System.Reflection.Context
+	System.Reflection.Context	\
+	System.Net.Http.WinHttpHandler
 
 mobile_static_dirs := \
 	$(mobile_common_dirs)	\
@@ -142,6 +143,7 @@ xammac_4_5_dirs := \
 	Mono.Security.Providers.NewTls \
 	System.Runtime.InteropServices.RuntimeInformation \
 	System.Reflection.Context	\
+	System.Net.Http.WinHttpHandler	\
 	$(pcl_facade_dirs)
 
 net_4_x_dirs := \
