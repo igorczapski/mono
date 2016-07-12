@@ -27,7 +27,7 @@ System.Xml.XPath System.Xml.XmlDocument System.Xml.Xsl.Primitives Microsoft.Win3
 System.IO.FileSystem.AccessControl System.Private.CoreLib.InteropServices System.Private.CoreLib.Threading System.Reflection.TypeExtensions \
 System.Security.SecureString System.Threading.AccessControl System.Threading.Overlapped System.Xml.XPath.XDocument System.IO.Compression \
 System.Security.Cryptography.Algorithms System.Security.Cryptography.Primitives System.Text.Encoding.CodePages System.IO.FileSystem.Watcher \
-System.Security.Cryptography.ProtectedData
+System.Security.Cryptography.ProtectedData System.ServiceProcess.ServiceController
 
 reflection_PARALLEL_SUBDIRS = System.Reflection.Emit.ILGeneration System.Reflection.Emit.Lightweight System.Reflection.Emit
 
@@ -36,7 +36,7 @@ monotouch_PARALLEL_SUBDIRS = $(common_SUBDIRS) $(mobile_only_SUBDIRS)
 mobile_static_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS)
 
 net_4_x_PARALLEL_SUBDIRS = $(common_SUBDIRS) $(reflection_PARALLEL_SUBDIRS) System.Diagnostics.PerformanceCounter \
-System.IO.Pipes System.ServiceProcess.ServiceController System.Net.Http.WebRequestHandler
+System.IO.Pipes System.Net.Http.WebRequestHandler
 
 monodroid_PARALLEL_SUBDIRS = $(monotouch_PARALLEL_SUBDIRS) $(reflection_PARALLEL_SUBDIRS)
 
