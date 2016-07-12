@@ -148,7 +148,6 @@ namespace System.Threading
         /// <exception cref="ObjectDisposedException">
         ///     This method was called after the <see cref="ThreadPoolBoundHandle"/> was disposed.
         /// </exception>
-        [CLSCompliant(false)]
         public unsafe NativeOverlapped* AllocateNativeOverlapped(IOCompletionCallback callback, object state, object pinData)
         {
             if (callback == null)
@@ -189,7 +188,6 @@ namespace System.Threading
         ///     this method was called after <paramref name="preAllocated"/> was disposed.
         /// </exception>
         /// <seealso cref="PreAllocatedOverlapped"/>
-        [CLSCompliant(false)]
         public unsafe NativeOverlapped* AllocateNativeOverlapped(PreAllocatedOverlapped preAllocated)
         {
             if (preAllocated == null)
@@ -239,7 +237,6 @@ namespace System.Threading
         /// <exception cref="ObjectDisposedException">
         ///     This method was called after the <see cref="ThreadPoolBoundHandle"/> was disposed.
         /// </exception>
-        [CLSCompliant(false)]
         public unsafe void FreeNativeOverlapped(NativeOverlapped* overlapped)
         {
             if (overlapped == null)
@@ -274,7 +271,6 @@ namespace System.Threading
         /// <exception cref="ArgumentNullException">
         ///     <paramref name="overlapped"/> is <see langword="null"/>.
         /// </exception>
-        [CLSCompliant(false)]
         public unsafe static object GetNativeOverlappedState(NativeOverlapped* overlapped)
         {
             if (overlapped == null)

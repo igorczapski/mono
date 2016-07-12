@@ -47,7 +47,6 @@ namespace System.Threading
         /// <exception cref="ObjectDisposedException">
         ///     This method was called after the <see cref="ThreadPoolBoundHandle"/> was disposed.
         /// </exception>
-        [CLSCompliant(false)]
         public unsafe PreAllocatedOverlapped(IOCompletionCallback callback, object state, object pinData)
         {
             if (callback == null)
