@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 // 
 
-// missing [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptHandle))]
-// missing [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle))]
-// missing [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle))]
-// missing [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle))]
+[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptHandle))]
+[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle))]
+[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle))]
+[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.AesCng))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.CngAlgorithm))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Security.Cryptography.CngAlgorithmGroup))]

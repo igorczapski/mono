@@ -10,6 +10,10 @@ System.Security.Cryptography/AesCng.cs
 System.Security.Cryptography/TripleDESCng.cs
 System.Security.Cryptography.X509Certificates/ECDsaCertificateExtensions.cs
 System.Security.Cryptography.X509Certificates/RSACertificateExtensions.cs
+Microsoft.Win32.SafeHandles/SafeNCryptHandle.cs
+Microsoft.Win32.SafeHandles/SafeNCryptKeyHandle.cs
+Microsoft.Win32.SafeHandles/SafeNCryptProviderHandle.cs
+Microsoft.Win32.SafeHandles/SafeNCryptSecretHandle.cs
 
 ReferenceSources/SR.cs
 ReferenceSources/SR.missing.cs
